@@ -1,0 +1,48 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,figure,figcaption,img{ margin:0; padding:0; }
+a{
+	text-decoration: none;
+	color: black;   
+}
+li{
+	list-style: none;
+}
+body {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
+    color: #999;
+}
+.transition{
+    transition: all .5s 0s;
+    transform: translateX(0);
+}
+.transition:hover{
+    transform: translateX(10px);
+}
+.transition1{
+    transition: all .5s 0s;
+    transform: translateX(0);
+}
+.transition1:hover{
+    transform: translateX(-10px);
+}
+.transition2{
+    transition: all .5s 0s;
+    transform: translateY(0);
+}
+.transition2:hover{
+    transform: translateY(-5px);
+}
+.transition3{
+    transition: all .5s 0s;
+    transform: translateX(0);
+}
+.transition3:hover{
+    transform: translateX(-10px);
+}
